@@ -44,7 +44,7 @@ def decode_image(img):
 
     return bin_to_text(binary_message[:eof_index])
 
-st.title("🕵️‍♂️ Encrypto")
+st.title("Encrypto 🕵️‍♂️")
 st.subheader('A stenoqraphy tool created by [Swapnoneel](https://x.com/swapnoneel123)')
 mode = st.radio("Choose Mode", ["Encrypt", "Decrypt"], horizontal=True)
 
