@@ -48,7 +48,8 @@ def decode_image(img):
 
     return bin_to_text(binary_message[:eof_index])
 
-st.title("🕵️‍♂️ Image Steganography App")
+st.title("🕵️‍♂️ Encrypto")
+st.subheader('An Image Steganography Tool created by [Swapnoneel](https://x.com/swapnoneel123)')
 mode = st.radio("Choose Mode", ["Encrypt", "Decrypt"], horizontal=True)
 
 if mode == "Encrypt":
