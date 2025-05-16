@@ -68,7 +68,7 @@ if mode == "Encrypt":
                 st.success("✅ Encryption Successful!")
                 st.download_button(label="📥 Download Encrypted Image", data=byte_img,
                                    file_name="encrypted_image.png", mime="image/png")
-                st.image(encoded_img, caption="Encrypted Image Preview", use_column_width=True)
+                st.image(encoded_img, caption="Encrypted Image Preview", use_container_width=True)
             except Exception as e:
                 st.error(f"Error: {str(e)}")
         else:
